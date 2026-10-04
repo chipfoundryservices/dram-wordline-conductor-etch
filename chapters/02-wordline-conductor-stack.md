@@ -117,7 +117,7 @@ Typical composition of 2 nm ALD TiN (illustrative):
   Resistivity             120–200 µΩ·cm at 2 nm (≈ 25 µΩ·cm bulk)
 ```
 
-Each of these affects the recess. Oxygen turns part of the TiN into TiOₓNᵧ, which etches more slowly in chlorine. Low density etches faster. A cooler or shorter ALD cycle leaves more chlorine and less density. A 10% change in TiN etch rate, which a deposition drift can cause, is enough to create a 3 nm TiN–W step over a 90 nm recess if the recipe has no trim (Chapter 11).
+Each of these affects the recess. Oxygen turns part of the TiN into TiOₓNᵧ, which etches more slowly in chlorine. Low density etches faster. A cooler or shorter ALD cycle leaves more chlorine and less density. A 4% change in TiN etch rate, well within what a deposition drift can cause, is enough to create a 3 nm TiN–W step over an 85 nm recess if the recipe has no trim (Chapter 11).
 
 ### 2.2.3 TiN Thickness and the Metal Fraction of the Surface
 
@@ -375,7 +375,7 @@ Post-CMP particles                 —               Within budget
 
 1. **The slot is 11 nm in the silicon and 13.8 nm in the mask.** Radical oxidation consumes 1.1 nm of silicon per wall and protrudes 1.4 nm. The ALD oxide adds 1 nm everywhere. The mask walls get only the ALD layer.
 
-2. **TiN is a third of the recess front.** It is ALD-grown with oxygen and chlorine in it, and its etch rate depends on composition. A 10% change in TiN rate can make a 3 nm step.
+2. **TiN is a third of the recess front.** It is ALD-grown with oxygen and chlorine in it, and its etch rate depends on composition. A 4% change in TiN rate can make a 3 nm step.
 
 3. **The tungsten core has a seam.** Conformal growth from both walls meets on the centreline. The seam is less dense than the grains and gives fluorine a fast path downward.
 
