@@ -80,7 +80,7 @@ K: probability that a molecule entering the top reaches the bottom
 β: probability that a molecule hitting the bottom reacts
 ```
 
-A long slot of depth h and width w has aspect ratio A = h/w. Its transmission falls with A. A simple form that fits the slot transmission over A = 0–10 within a few percent is K ≈ 1/(1 + A/2). (The exact transmission of a long slot has a logarithmic correction at large A. Appendix E gives it.) Substituting:
+A long slot of depth h and width w has aspect ratio A = h/w. Its transmission falls with A. The simple form K ≈ 1/(1 + A/2) captures the trend and leads directly to the linear ARDE form. It underestimates the transmission of a long slot at large A, where molecules travel far along the slot and a logarithmic correction appears (Appendix E.2 gives Monte Carlo values). Even so, the linear ARDE form with a fitted k reproduces measured depth series within a few percent over A = 0–10. Substituting:
 
 ```
 Γ_bottom / Γ_top = 1 / (1 + β A / 2)
@@ -88,7 +88,7 @@ A long slot of depth h and width w has aspect ratio A = h/w. Its transmission fa
 Linear ARDE form:   ER(A) / ER₀ = 1 / (1 + k A)    with  k ≈ β/2
 ```
 
-For the reference process, depth-series measurements give k = 0.035 for the main recess step, which corresponds to β ≈ 0.07. That is plausible for fluorine on a tungsten surface kept active by ions. The coefficient is a property of the step, not of the slot. Higher bias, pulsing, and chlorine content all change it (Chapters 6 and 7).
+For the reference process, depth-series measurements give k = 0.035 for the main recess step. With the simple transmission form this corresponds to β ≈ 0.07. With the long-slot transmission from the Monte Carlo of Appendix E.2, which falls more slowly at large A, the same data give β ≈ 0.1. Either value is plausible for fluorine on a tungsten surface kept active by ions. The fitted k is what the rest of the book uses. The coefficient is a property of the step, not of the slot. Higher bias, pulsing, and chlorine content all change it (Chapters 6 and 7).
 
 ### 3.2.3 Etch Products
 
